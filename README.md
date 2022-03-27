@@ -3,7 +3,7 @@
 Python app made with flask<br/>
 pokazuje Hello World tekst na stronie
 <h2>Setup</h2>
-<h3>1.klonujemy || Repozytorium</h3>
+<h3>1.klonujemy https://github.com/pawelpiotrowskiwsb/pythonlist3 Repozytorium</h3>
 git clone  <br/>
 cd HelloWorld
 <h4>Windows:</h4>
