@@ -4,7 +4,7 @@ Python app made with flask<br/>
 pokazuje Hello World tekst na stronie
 <h2>Setup</h2>
 <h3>1.klonujemy https://github.com/pawelpiotrowskiwsb/pythonlist3 Repozytorium</h3>
-git clone  <br/>
+git clone https://github.com/pawelpiotrowskiwsb/pythonlist3 <br/>
 cd HelloWorld
 <h4>Windows:</h4>
 py -3 -m venv venv
