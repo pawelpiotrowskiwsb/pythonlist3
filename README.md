@@ -19,7 +19,7 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, World!</p>"
 6. Deklarujemy hello world jako flask app.
-	set FLASK_APP=hellowrold.py
+	set FLASK_APP=hellowrold.py </br>
 7. uruchamiamy flask.
 	flask run
 8. kopiujemy adres i wklejamy w przeglądarke
