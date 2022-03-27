@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "Hello, World!"
 6. Deklarujemy hello world jako flask app.
 	set FLASK_APP=hellowrold.py </br>
 7. uruchamiamy flask.
