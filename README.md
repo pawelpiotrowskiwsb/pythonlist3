@@ -1,12 +1,32 @@
 # pythonlist3
-'''
-- tworzymy hermetyczne środowisko dla bibliotek aplikacji:
-> python -m venv .venv
+ ```
+  # tworzymy środowisko dla pythona
+  > python -m venv .venv
 
-- aktywowanie hermetycznego środowiska
-> source .venv/scripts/activate
-> pip install -r requirements.txt
-> pip install -r test_requirements.txt
+  # aktywujemy środowisko
+  > source .venv/Scripts/activate
+  > pip install -r requirements.txt
 
-- zobacz
-> pip list
+  # zobacz czy jest zainstalowanie
+  > pip list
+  ```
+
+- Uruchamianie applikacji:
+
+  ```
+  > PYTHONPATH=. FLASK_APP=hello_world flask run
+  ```
+
+- Aktywacja środowiska hermetycznego.
+
+  ```
+  # deaktywacja
+  > deactivate
+  ```
+
+  ```
+  ...
+
+  # aktywacja 
+  > source .venv/bin/activate
+  ```
