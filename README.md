@@ -14,7 +14,7 @@
 - Uruchamianie applikacji:
 
   ```
-  > PYTHONPATH=. FLASK_APP=hello_world flask run
+  > PYTHONPATH=. FLASK_APP=helloworld.py flash run
   ```
 
 - Aktywacja środowiska hermetycznego.
