@@ -10,7 +10,7 @@
 	venv\Scripts\activate
 4. instalujemy Flask.
 	pip install Flask
-5.tworzymy plik helloworld.py w którym zapisany będzie kod 
+5.tworzymy plik helloworld.py w którym zapisany będzie kod </BR>
 from flask import Flask
 
 app = Flask(__name__)
