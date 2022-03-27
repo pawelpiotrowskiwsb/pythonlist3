@@ -10,10 +10,16 @@
 	venv\Scripts\activate
 4. instalujemy Flask.
 	pip install Flask
-7. Deklarujemy hello world jako flask app.
-	set FLASK_APP=Hello_world.py
-8. uruchamiamy flask.
+5.tworzymy plik helloworld.py w którym zapisany będzie kod 
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+6. Deklarujemy hello world jako flask app.
+	set FLASK_APP=hellowrold.py
+7. uruchamiamy flask.
 	flask run
-9. kopiujemy adres i wklejamy w przeglądarke
-10. zapisujemy liste zainstalowanych paczek do pliku txt.
-	pip freeze > requirements.txt
+8. kopiujemy adres i wklejamy w przeglądarke
