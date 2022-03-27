@@ -11,13 +11,13 @@
 4. instalujemy Flask.
 	pip install Flask
 5.tworzymy plik helloworld.py w którym zapisany będzie kod </BR>
-from flask import Flask
+from flask import Flask</BR>
 
-app = Flask(__name__)
+app = Flask(__name__)</BR>
 
-@app.route("/")
-def hello_world():
-    return "Hello, World!"
+@app.route("/")</BR>
+def hello_world():</BR>
+    return "Hello, World!"</BR>
 6. Deklarujemy hello world jako flask app.
 	set FLASK_APP=hellowrold.py </br>
 7. uruchamiamy flask.
