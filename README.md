@@ -1,24 +1,19 @@
 # pythonlist3
-# HelloWorldFlask
-Python app made with flask<br/>
-pokazuje Hello World tekst na stronie
-<h2>Setup</h2>
-<h3>1.klonujemy https://github.com/pawelpiotrowskiwsb/pythonlist3 Repozytorium</h3>
-git clone https://github.com/pawelpiotrowskiwsb/pythonlist3 <br/>
-cd HelloWorld
-<h4>Windows:</h4>
-py -3 -m venv venv
-<h3>2.Activate The enviroment</h3>
-<h4>Windows:</h4>
-venv/Scripts/activate
-<h3>3.Install Flask</h3>
-pip install Flask
-<h3>4.Add Requirements</h3>
-pip install -r requirements.txt
-<h2>Run</h2>
-<h4>Windows/CMD:</h4>
-set FLASK_APP=main<br/>
-<h4>Windows/Powershell:</h4>
-$env:FLASK_APP = "main.py"<br/><br/>
+1. tworzymy ścieżke do naszego foldera.
+	mkdir FlaskApp
+	cd FlaskApp
 
-flask run
+2. teraz zaczynamy używać pythona.
+	py -3 -m venv venv
+
+3. aktywujemy skrypty.
+	venv\Scripts\activate
+4. instalujemy Flask.
+	pip install Flask
+7. Deklarujemy hello world jako flask app.
+	set FLASK_APP=Hello_world.py
+8. uruchamiamy flask.
+	flask run
+9. kopiujemy adres i wklejamy w przeglądarke
+10. Save list of installed packages to text file.
+	pip freeze > requirements.txt
