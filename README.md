@@ -15,5 +15,5 @@
 8. uruchamiamy flask.
 	flask run
 9. kopiujemy adres i wklejamy w przeglądarke
-10. Save list of installed packages to text file.
+10. zapisujemy liste zainstalowanych paczek do pliku txt.
 	pip freeze > requirements.txt
