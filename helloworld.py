@@ -1,9 +1,7 @@
-from flask import flask
-app = flask(_hello_)
+from flask import Flask
 
-(app.route('/hello/<hello>')
- def hello_world(hello):
-  return 'Hello world'
- 
- if _hello_ == '_main_':
-  app.run()
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
