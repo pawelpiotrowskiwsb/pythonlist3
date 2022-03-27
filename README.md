@@ -8,8 +8,8 @@
 
 3. aktywujemy skrypty.
 	venv\Scripts\activate
-4. instalujemy Flask.
-	pip install Flask
+4. instalujemy Flask.</BR>
+	pip install Flask</BR>
 5.tworzymy plik helloworld.py w którym zapisany będzie kod </BR>
 from flask import Flask</BR>
 
